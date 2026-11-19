@@ -6,7 +6,7 @@ A data scientist with a statistics background.
 
 I build ML models and check that they hold up on real data.
 
-[![velog](https://img.shields.io/badge/blog-velog-313131?style=flat&labelColor=545454&color=313131)](https://velog.io/@YOUR_ID) [![views](https://komarev.com/ghpvc/?username=leebomin&style=flat&color=313131&label=views&abbreviated=true)](https://github.com/leebomin) [![TOBIG'S](https://img.shields.io/badge/TOBIG'S-26th-313131?style=flat&labelColor=545454&color=313131)](https://github.com/leebomin)
+[![velog](https://img.shields.io/badge/blog-velog-313131?style=flat&labelColor=545454&color=313131)](https://velog.io/@leebomin) [![views](https://komarev.com/ghpvc/?username=leebomin&style=flat&color=313131&label=views&abbreviated=true)](https://github.com/leebomin) [![TOBIG'S](https://img.shields.io/badge/TOBIG'S-26th-313131?style=flat&labelColor=545454&color=313131)](https://github.com/leebomin)
 
 #### 🎈 Stats
 
@@ -36,6 +36,6 @@ Since joining GitHub, I have pushed **{{ COMMITS }}** commits across **{{ REPOSI
 
 <div align="right">
 
-**~** [_velog.io/@leebomin](https://velog.io/@leebomin)
+**~** [_velog.io/@leebomin_](https://velog.io/@leebomin)
 
 </div>
