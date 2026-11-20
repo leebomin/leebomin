@@ -8,11 +8,10 @@ I build ML models and check that they hold up on real data.
 
 Check out my [portfolio](https://leebomin.notion.site/Data-Scientist-1f40743c054580c7b470d43c597c3220?pvs=74) for project details.
 
-[![portfolio](https://img.shields.io/badge/portfolio-notion-313131?style=flat&labelColor=545454&color=313131)](https://leebomin.notion.site/Data-Scientist-1f40743c054580c7b470d43c597c3220?pvs=74) [![linkedin](https://img.shields.io/badge/linkedin-bomin%20lee-313131?style=flat&labelColor=545454&color=313131)](https://www.linkedin.com/in/leebomin/) [![velog](https://img.shields.io/badge/blog-velog-313131?style=flat&labelColor=545454&color=313131)](https://velog.io/@leebomin) [![views](https://komarev.com/ghpvc/?username=leebomin&style=flat&color=313131&label=views&abbreviated=true)](https://github.com/leebomin)
-
+[![portfolio](https://img.shields.io/badge/portfolio-notion-313131?style=flat&labelColor=545454&color=313131)](https://leebomin.notion.site/Data-Scientist-1f40743c054580c7b470d43c597c3220?pvs=74) [![linkedin](https://img.shields.io/badge/linkedin-bomin%20lee-313131?style=flat&labelColor=545454&color=313131)](https://www.linkedin.com/in/leebomin/) [![velog](https://img.shields.io/badge/blog-velog-313131?style=flat&labelColor=545454&color=313131)](https://velog.io/@leebomin)
 #### 🎈 Stats
 
-Since joining GitHub, I have pushed **89** commits across **5** personal projects and contributed to **1** public repositories.
+Since joining GitHub, I have pushed **90** commits across **5** personal projects and contributed to **1** public repositories.
 
 #### 💡 Tech Stack
 
