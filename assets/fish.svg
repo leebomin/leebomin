@@ -7,33 +7,41 @@
       letter-spacing: 0.4px;
       white-space: pre;
     }
-    /* 물빠진 인디고 / 슬레이트 블루 그라데이션 */
-    .c1 { fill: #e2e8f0; } /* 가장 밝은 하이라이트 */
-    .c2 { fill: #94a3b8; } /* 밝은 슬레이트 */
-    .c3 { fill: #64748b; } /* 중간 슬레이트 블루 */
-    .c4 { fill: #475569; } /* 어두운 블루그레이 */
-    .c5 { fill: #1e293b; } /* 딥 인디고 외곽선 */
+    /* 모노톤 그라데이션 */
+    .c1 { fill: #f0f6fc; }
+    .c2 { fill: #b1bac4; }
+    .c3 { fill: #8b949e; }
+    .c4 { fill: #484f58; }
+    .c5 { fill: #21262d; }
 
-    .bubble-lg {
+    /* 크고 확실하게 티나는 뽀글뽀글 물방울 4개 */
+    .bubble-1 {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 14px;
+      font-weight: bold;
+      fill: #f0f6fc;
+      animation: pop1 2.4s ease-out infinite;
+    }
+    .bubble-2 {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 11px;
+      font-weight: bold;
+      fill: #b1bac4;
+      animation: pop2 2.4s ease-out infinite 0.6s;
+    }
+    .bubble-3 {
       font-family: 'Consolas', 'Courier New', monospace;
       font-size: 9px;
       font-weight: bold;
-      fill: #94a3b8;
-      animation: pop1 2.4s ease-in infinite;
+      fill: #8b949e;
+      animation: pop3 2.4s ease-out infinite 1.2s;
     }
-    .bubble-md {
+    .bubble-4 {
       font-family: 'Consolas', 'Courier New', monospace;
-      font-size: 6.5px;
+      font-size: 7px;
       font-weight: bold;
-      fill: #64748b;
-      animation: pop2 2.4s ease-in infinite 0.9s;
-    }
-    .bubble-sm {
-      font-family: 'Consolas', 'Courier New', monospace;
-      font-size: 4.5px;
-      font-weight: bold;
-      fill: #475569;
-      animation: pop3 2.4s ease-in infinite 1.6s;
+      fill: #b1bac4;
+      animation: pop4 2.4s ease-out infinite 1.8s;
     }
 
     .swim { animation: bounce 2.4s ease-in-out infinite; }
@@ -53,27 +61,35 @@
       50%, 100% { opacity: 1; }
     }
     @keyframes pop1 {
-      0% { transform: translate(0, 0); opacity: 0; }
-      20% { opacity: 0.9; }
-      100% { transform: translate(-8px, -24px); opacity: 0; }
+      0% { transform: translate(0, 0) scale(0.7); opacity: 0; }
+      20% { opacity: 1; }
+      100% { transform: translate(-12px, -32px) scale(1.1); opacity: 0; }
     }
     @keyframes pop2 {
-      0% { transform: translate(0, 0); opacity: 0; }
-      25% { opacity: 0.8; }
-      100% { transform: translate(-12px, -30px); opacity: 0; }
+      0% { transform: translate(0, 0) scale(0.7); opacity: 0; }
+      20% { opacity: 0.95; }
+      100% { transform: translate(-16px, -38px) scale(1.05); opacity: 0; }
     }
     @keyframes pop3 {
-      0% { transform: translate(0, 0); opacity: 0; }
-      30% { opacity: 0.7; }
-      100% { transform: translate(-5px, -18px); opacity: 0; }
+      0% { transform: translate(0, 0) scale(0.7); opacity: 0; }
+      25% { opacity: 0.9; }
+      100% { transform: translate(-6px, -28px) scale(1); opacity: 0; }
+    }
+    @keyframes pop4 {
+      0% { transform: translate(0, 0) scale(0.7); opacity: 0; }
+      25% { opacity: 0.85; }
+      100% { transform: translate(-14px, -22px) scale(1); opacity: 0; }
     }
   </style>
 
-  <g class="swim" transform="translate(18, 16)">
-    <text x="10" y="38" class="bubble-lg">o</text>
-    <text x="4" y="26" class="bubble-md">o</text>
-    <text x="14" y="20" class="bubble-sm">°</text>
+  <g class="swim" transform="translate(22, 18)">
+    
+    <text x="6" y="42" class="bubble-1">O</text>
+    <text x="0" y="32" class="bubble-2">o</text>
+    <text x="12" y="26" class="bubble-3">o</text>
+    <text x="4" y="20" class="bubble-4">°</text>
 
+    
     <text x="20" y="10" class="px c5">            ....::::++++****</text>
     <text x="20" y="14" class="px c5">        ..::++**########**++::..</text>
     <text x="20" y="18" class="px c4">      .:++**####@@@@@@@@####**++:.</text>
@@ -93,6 +109,7 @@
     <text x="20" y="74" class="px c4">        ..::++**########**++::..</text>
     <text x="20" y="78" class="px c5">            ''''::::++++****</text>
 
+    
     <g class="tail-1">
       <text x="114" y="22" class="px c4">        ..::+*#%</text>
       <text x="114" y="26" class="px c3">      ..:+*#%@@@</text>
@@ -108,6 +125,7 @@
       <text x="114" y="66" class="px c4">        ..::+*#%</text>
     </g>
 
+    
     <g class="tail-2">
       <text x="114" y="22" class="px c4">       ..::+*#%</text>
       <text x="114" y="26" class="px c3">     ..:+*#%@@@</text>
