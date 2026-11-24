@@ -1,4 +1,4 @@
-<svg width="230" height="145" viewBox="0 0 230 145" xmlns="http://www.w3.org/2000/svg">
+<svg width="280" height="150" viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
   <style>
     .px {
       font-family: 'Consolas', 'Courier New', monospace;
@@ -7,17 +7,21 @@
       letter-spacing: 0.4px;
       white-space: pre;
     }
-    /* 모노톤 그라데이션 */
     .c1 { fill: #f0f6fc; }
     .c2 { fill: #b1bac4; }
     .c3 { fill: #8b949e; }
     .c4 { fill: #484f58; }
     .c5 { fill: #21262d; }
 
-    .b-text {
+    .b-font {
       font-family: 'Consolas', 'Courier New', monospace;
       font-weight: bold;
     }
+
+    .b1 { animation: floatUp1 2.4s ease-out infinite; }
+    .b2 { animation: floatUp2 2.4s ease-out infinite 0.6s; }
+    .b3 { animation: floatUp3 2.4s ease-out infinite 1.2s; }
+    .b4 { animation: floatUp4 2.4s ease-out infinite 1.8s; }
 
     .swim { animation: bounce 2.4s ease-in-out infinite; }
     .tail-1 { animation: waveA 0.65s steps(1) infinite; }
@@ -35,36 +39,50 @@
       0%, 49% { opacity: 0; }
       50%, 100% { opacity: 1; }
     }
+
+    @keyframes floatUp1 {
+      0%   { transform: translate(0px, 0px); opacity: 0; }
+      15%  { opacity: 1; }
+      75%  { opacity: 0.5; }
+      100% { transform: translate(-12px, -38px); opacity: 0; }
+    }
+    @keyframes floatUp2 {
+      0%   { transform: translate(0px, 0px); opacity: 0; }
+      15%  { opacity: 0.95; }
+      75%  { opacity: 0.4; }
+      100% { transform: translate(-16px, -42px); opacity: 0; }
+    }
+    @keyframes floatUp3 {
+      0%   { transform: translate(0px, 0px); opacity: 0; }
+      20%  { opacity: 0.9; }
+      75%  { opacity: 0.4; }
+      100% { transform: translate(-8px, -32px); opacity: 0; }
+    }
+    @keyframes floatUp4 {
+      0%   { transform: translate(0px, 0px); opacity: 0; }
+      20%  { opacity: 0.85; }
+      75%  { opacity: 0.3; }
+      100% { transform: translate(-14px, -28px); opacity: 0; }
+    }
   </style>
 
   
-  <text x="58" y="88" font-size="13px" fill="#f0f6fc" class="b-text" opacity="0">O
-    <animate attributeName="y" values="88; 45" dur="2.4s" repeatCount="indefinite" />
-    <animate attributeName="x" values="58; 48" dur="2.4s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0; 1; 0.6; 0" keyTimes="0; 0.2; 0.7; 1" dur="2.4s" repeatCount="indefinite" />
-  </text>
-
-  <text x="52" y="82" font-size="10px" fill="#b1bac4" class="b-text" opacity="0">o
-    <animate attributeName="y" values="82; 35" dur="2.4s" begin="0.6s" repeatCount="indefinite" />
-    <animate attributeName="x" values="52; 40" dur="2.4s" begin="0.6s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0; 0.95; 0.5; 0" keyTimes="0; 0.2; 0.7; 1" dur="2.4s" begin="0.6s" repeatCount="indefinite" />
-  </text>
-
-  <text x="62" y="76" font-size="8px" fill="#8b949e" class="b-text" opacity="0">o
-    <animate attributeName="y" values="76; 32" dur="2.4s" begin="1.2s" repeatCount="indefinite" />
-    <animate attributeName="x" values="62; 54" dur="2.4s" begin="1.2s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0; 0.9; 0.4; 0" keyTimes="0; 0.2; 0.7; 1" dur="2.4s" begin="1.2s" repeatCount="indefinite" />
-  </text>
-
-  <text x="55" y="70" font-size="6px" fill="#b1bac4" class="b-text" opacity="0">°
-    <animate attributeName="y" values="70; 28" dur="2.4s" begin="1.8s" repeatCount="indefinite" />
-    <animate attributeName="x" values="55; 44" dur="2.4s" begin="1.8s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0; 0.85; 0.4; 0" keyTimes="0; 0.2; 0.7; 1" dur="2.4s" begin="1.8s" repeatCount="indefinite" />
-  </text>
+  <g transform="translate(112, 86)">
+    <text x="0" y="0" font-size="13px" fill="#f0f6fc" class="b-font b1" opacity="0">O</text>
+  </g>
+  <g transform="translate(104, 80)">
+    <text x="0" y="0" font-size="10px" fill="#b1bac4" class="b-font b2" opacity="0">o</text>
+  </g>
+  <g transform="translate(116, 74)">
+    <text x="0" y="0" font-size="8px" fill="#8b949e" class="b-font b3" opacity="0">o</text>
+  </g>
+  <g transform="translate(108, 68)">
+    <text x="0" y="0" font-size="6px" fill="#b1bac4" class="b-font b4" opacity="0">°</text>
+  </g>
 
   
-  <g class="swim">
-    <g transform="translate(55, 42)">
+  <g transform="translate(115, 42)">
+    <g class="swim">
       
       <text x="20" y="10" class="px c5">            ....::::++++****</text>
       <text x="20" y="14" class="px c5">        ..::++**########**++::..</text>
