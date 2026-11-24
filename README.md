@@ -16,7 +16,7 @@ Check out my [portfolio](https://leebomin.notion.site/Data-Scientist-1f40743c054
 
 #### ⚡ Stats
 
-Since joining GitHub, I have pushed **93** commits across **5** personal projects and contributed to **1** public repositories.
+Since joining GitHub, I have pushed **94** commits across **5** personal projects and contributed to **1** public repositories.
 
 #### ⚙️ Tech Stack
 
