@@ -1,6 +1,4 @@
-<table>
-  <tr>
-    <td width="520" valign="top">
+<img align="right" width="460" src="./assets/fish.svg?v=5" alt="ascii fish" />
 
 ### Hi there! <img src="assets/wave.svg" width="28">
 
@@ -14,16 +12,11 @@ Check out my [portfolio](https://leebomin.notion.site/Data-Scientist-1f40743c054
 
 [![portfolio](https://img.shields.io/badge/portfolio-notion-313131?style=flat&labelColor=545454&color=313131)](https://leebomin.notion.site/Data-Scientist-1f40743c054580c7b470d43c597c3220?pvs=74) [![linkedin](https://img.shields.io/badge/linkedin-bomin%20lee-313131?style=flat&labelColor=545454&color=313131)](https://www.linkedin.com/in/leebomin/) [![velog](https://img.shields.io/badge/blog-velog-313131?style=flat&labelColor=545454&color=313131)](https://velog.io/@leebomin)
 
-</td>
-    <td align="left" valign="middle">
-      <img width="340" src="./assets/fish.svg?v=3" alt="ascii fish" />
-    </td>
-  </tr>
-</table>
+<br clear="right"/>
 
 #### ⚡ Stats
 
-Since joining GitHub, I have pushed **96** commits across **5** personal projects and contributed to **1** public repositories.
+Since joining GitHub, I have pushed **97** commits across **5** personal projects and contributed to **1** public repositories.
 
 #### ⚙️ Tech Stack
 
