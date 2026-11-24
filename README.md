@@ -1,4 +1,5 @@
-<img align="right" width="460" src="./assets/fish.svg?v=5" alt="ascii fish" />
+<img align="right" width="460" src="./assets/fish.svg?v=6" alt="ascii fish" />
+
 
 ### Hi there! <img src="assets/wave.svg" width="28">
 
@@ -16,7 +17,7 @@ Check out my [portfolio](https://leebomin.notion.site/Data-Scientist-1f40743c054
 
 #### ⚡ Stats
 
-Since joining GitHub, I have pushed **97** commits across **5** personal projects and contributed to **1** public repositories.
+Since joining GitHub, I have pushed **98** commits across **5** personal projects and contributed to **1** public repositories.
 
 #### ⚙️ Tech Stack
 
