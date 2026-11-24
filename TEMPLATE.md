@@ -1,4 +1,5 @@
-<img align="right" width="460" src="./assets/fish.svg?v=5" alt="ascii fish" />
+<img align="right" width="460" src="./assets/fish.svg?v=6" alt="ascii fish" />
+
 
 ### Hi there! <img src="assets/wave.svg" width="28">
 

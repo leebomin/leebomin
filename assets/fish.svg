@@ -1,1 +1,139 @@
 <svg width="360" height="150" viewBox="0 0 360 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .px {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 3.5px;
+      font-weight: bold;
+      letter-spacing: 0.4px;
+      white-space: pre;
+    }
+    .c1 { fill: #f0f6fc; }
+    .c2 { fill: #b1bac4; }
+    .c3 { fill: #8b949e; }
+    .c4 { fill: #484f58; }
+    .c5 { fill: #21262d; }
+
+    .b-font {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-weight: bold;
+    }
+
+    .b1 { animation: floatUp1 2.4s ease-out infinite; }
+    .b2 { animation: floatUp2 2.4s ease-out infinite 0.6s; }
+    .b3 { animation: floatUp3 2.4s ease-out infinite 1.2s; }
+    .b4 { animation: floatUp4 2.4s ease-out infinite 1.8s; }
+
+    .swim { animation: bounce 2.4s ease-in-out infinite; }
+    .tail-1 { animation: waveA 0.65s steps(1) infinite; }
+    .tail-2 { animation: waveB 0.65s steps(1) infinite; }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes waveA {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes waveB {
+      0%, 49% { opacity: 0; }
+      50%, 100% { opacity: 1; }
+    }
+
+    @keyframes floatUp1 {
+      0%   { transform: translate(0px, 0px); opacity: 0; }
+      15%  { opacity: 1; }
+      75%  { opacity: 0.5; }
+      100% { transform: translate(-12px, -38px); opacity: 0; }
+    }
+    @keyframes floatUp2 {
+      0%   { transform: translate(0px, 0px); opacity: 0; }
+      15%  { opacity: 0.95; }
+      75%  { opacity: 0.4; }
+      100% { transform: translate(-16px, -42px); opacity: 0; }
+    }
+    @keyframes floatUp3 {
+      0%   { transform: translate(0px, 0px); opacity: 0; }
+      20%  { opacity: 0.9; }
+      75%  { opacity: 0.4; }
+      100% { transform: translate(-8px, -32px); opacity: 0; }
+    }
+    @keyframes floatUp4 {
+      0%   { transform: translate(0px, 0px); opacity: 0; }
+      20%  { opacity: 0.85; }
+      75%  { opacity: 0.3; }
+      100% { transform: translate(-14px, -28px); opacity: 0; }
+    }
+  </style>
+
+  
+  <g transform="translate(82, 86)">
+    <text x="0" y="0" font-size="13px" fill="#f0f6fc" class="b-font b1" opacity="0">O</text>
+  </g>
+  <g transform="translate(74, 80)">
+    <text x="0" y="0" font-size="10px" fill="#b1bac4" class="b-font b2" opacity="0">o</text>
+  </g>
+  <g transform="translate(86, 74)">
+    <text x="0" y="0" font-size="8px" fill="#8b949e" class="b-font b3" opacity="0">o</text>
+  </g>
+  <g transform="translate(78, 68)">
+    <text x="0" y="0" font-size="6px" fill="#b1bac4" class="b-font b4" opacity="0">°</text>
+  </g>
+
+  
+  <g transform="translate(85, 42)">
+    <g class="swim">
+      
+      <text x="20" y="10" class="px c5">            ....::::++++****</text>
+      <text x="20" y="14" class="px c5">        ..::++**########**++::..</text>
+      <text x="20" y="18" class="px c4">      .:++**####@@@@@@@@####**++:.</text>
+      <text x="20" y="22" class="px c4">    .:+*##@@@@%%%%%%%%%%%%@@@@##*+:.</text>
+      <text x="20" y="26" class="px c3">   :+*#@@@%%%%%%%%%%%%%%%%%%%%@@@#*+:</text>
+      <text x="20" y="30" class="px c3">  :+*#@@@%%%%%%@@@@@@@@@@%%%%%%@@@#*+:</text>
+      <text x="20" y="34" class="px c2"> :+*#@@@%%%%@@@@@@@@@@@@@@@@%%%%@@@#*+:</text>
+      <text x="20" y="38" class="px c2">:+*#@@@%%%%@@@@@@@@@@@@@@@@@@%%%%@@@#*+:</text>
+      <text x="20" y="42" class="px c1">+*#@@@%%%%@@@@@@@@@@@@@@@@@@@@%%%%@@@#*+</text>
+      <text x="20" y="46" class="px c1">+*#@@@%%%%@@@@@@@@@@@@@@@@@@@@%%%%@@@#*+</text>
+      <text x="20" y="50" class="px c1">:+*#@@@%%%%@@@@@@@@@@@@@@@@@@%%%%@@@#*+:</text>
+      <text x="20" y="54" class="px c2"> :+*#@@@%%%%@@@@@@@@@@@@@@@@%%%%@@@#*+:</text>
+      <text x="20" y="58" class="px c2">  :+*#@@@%%%%%%@@@@@@@@@@%%%%%%@@@#*+:</text>
+      <text x="20" y="62" class="px c3">   :+*#@@@%%%%%%%%%%%%%%%%%%%%@@@#*+:</text>
+      <text x="20" y="66" class="px c3">    .:+*##@@@@%%%%%%%%%%%%@@@@##*+:.</text>
+      <text x="20" y="70" class="px c4">      .:++**####@@@@@@@@####**++:.</text>
+      <text x="20" y="74" class="px c4">        ..::++**########**++::..</text>
+      <text x="20" y="78" class="px c5">            ''''::::++++****</text>
+
+      
+      <g class="tail-1">
+        <text x="114" y="22" class="px c4">        ..::+*#%</text>
+        <text x="114" y="26" class="px c3">      ..:+*#%@@@</text>
+        <text x="114" y="30" class="px c2">    .:+*#%@@@@@@</text>
+        <text x="114" y="34" class="px c2">  .:+*#%@@@@@@*:</text>
+        <text x="114" y="38" class="px c1">:+*#%@@@@@@*:.  </text>
+        <text x="114" y="42" class="px c1">+*#%@@@@*:.     </text>
+        <text x="114" y="46" class="px c1">+*#%@@@@*:.     </text>
+        <text x="114" y="50" class="px c1">:+*#%@@@@@@*:.  </text>
+        <text x="114" y="54" class="px c2">  .:+*#%@@@@@@*:</text>
+        <text x="114" y="58" class="px c2">    .:+*#%@@@@@@</text>
+        <text x="114" y="62" class="px c3">      ..:+*#%@@@</text>
+        <text x="114" y="66" class="px c4">        ..::+*#%</text>
+      </g>
+
+      
+      <g class="tail-2">
+        <text x="114" y="22" class="px c4">       ..::+*#%</text>
+        <text x="114" y="26" class="px c3">     ..:+*#%@@@</text>
+        <text x="114" y="30" class="px c2">   .:+*#%@@@@@@</text>
+        <text x="114" y="34" class="px c2"> .:+*#%@@@@@@*:</text>
+        <text x="114" y="38" class="px c1">+*#%@@@@@@*:.  </text>
+        <text x="114" y="42" class="px c1">*#%@@@@*:.     </text>
+        <text x="114" y="46" class="px c1">*#%@@@@*:.     </text>
+        <text x="114" y="50" class="px c1">+*#%@@@@@@*:.  </text>
+        <text x="114" y="54" class="px c2"> .:+*#%@@@@@@*:</text>
+        <text x="114" y="58" class="px c2">   .:+*#%@@@@@@</text>
+        <text x="114" y="62" class="px c3">     ..:+*#%@@@</text>
+        <text x="114" y="66" class="px c4">       ..::+*#%</text>
+      </g>
+    </g>
+  </g>
+</svg>
