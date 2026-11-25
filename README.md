@@ -15,28 +15,29 @@ Check out my [portfolio](https://leebomin.notion.site/Data-Scientist-1f40743c054
 
 <br clear="right"/>
 
-#### ⚡ Stats
+`commits 99` · `projects 5` · `contributed 1`
 
-Since joining GitHub, I have pushed **99** commits across **5** personal projects and contributed to **1** public repositories.
+#### `01` Stack
 
-#### ⚙️ Tech Stack
+<code>lang&nbsp;</code> <img src="https://img.shields.io/badge/Python-313131?style=flat&color=313131&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/R-313131?style=flat&color=313131&logo=r&logoColor=white"/> <img src="https://img.shields.io/badge/SAS-313131?style=flat&color=313131"/> <img src="https://img.shields.io/badge/SQL-313131?style=flat&color=313131&logo=mysql&logoColor=white"/><br>
+<code>ml&nbsp;&nbsp;&nbsp;</code> <img src="https://img.shields.io/badge/PyTorch-313131?style=flat&color=313131&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-313131?style=flat&color=313131&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-313131?style=flat&color=313131&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging%20Face-313131?style=flat&color=313131&logo=huggingface&logoColor=white"/><br>
+<code>llm&nbsp;&nbsp;</code> <img src="https://img.shields.io/badge/Ollama-313131?style=flat&color=313131&logo=ollama&logoColor=white"/> <img src="https://img.shields.io/badge/HyperCLOVA%20X-313131?style=flat&color=313131&logo=naver&logoColor=white"/> <img src="https://img.shields.io/badge/Claude%20API-313131?style=flat&color=313131&logo=claude&logoColor=white"/><br>
+<code>tools</code> <img src="https://img.shields.io/badge/FastAPI-313131?style=flat&color=313131&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-313131?style=flat&color=313131&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Git-313131?style=flat&color=313131&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Colab-313131?style=flat&color=313131&logo=googlecolab&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white"/> <img src="https://img.shields.io/badge/SAS-0766D1?style=flat-square"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/> <img src="https://img.shields.io/badge/HyperCLOVA%20X-03C75A?style=flat-square&logo=naver&logoColor=white"/> <img src="https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=claude&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white"/>
+#### `02` Projects
 
-#### 🔍 Projects
+| Project | What it does | Area |
+| --- | --- | --- |
+| [jejuairline](https://github.com/leebomin/jejuairline) | Predicts aircraft engine remaining life, with calibrated uncertainty | ML |
+| [pill-finder](https://github.com/leebomin/pill-finder) | LLM app that answers pill questions from official drug-safety docs only | LLM |
+| **Deepfake Detection** | Image, face and audio detection for investment-fraud prevention | ML |
+| **University Decline** | Regression and Welch's t-test on university preference and youth migration | Stats |
 
-| **Machine Learning** | **LLM & Data Analysis** |
-| --- | --- |
-| • [jejuairline](https://github.com/leebomin/jejuairline) - Aircraft engine predictive maintenance with calibrated remaining-life distributions<br>• **Multimodal Deepfake Detection** - Image, face, and audio deepfake detection for an investment-fraud prevention service | • [pill-finder](https://github.com/leebomin/pill-finder) - An LLM web app that answers pill questions using only official drug-safety documents<br>• **Regional University Decline Analysis** - Regression and Welch's t-test on university preference and youth migration |
+#### `03` Now
 
-#### 🌀 What am I working on?
-
-| **Category** | **Description** |
-| --- | --- |
-| **Learning** | Data science and AI |
-| **Building** | Local LLM multi-agent systems |
-| **Studying** | Urban Administration and Statistics |
-| **Writing** | [Blog posts](https://velog.io/@leebomin). |
+- **Building** local LLM multi-agent systems
+- **Studying** Urban Administration and Statistics
+- **Writing** on [velog](https://velog.io/@leebomin)
 
 ---
 
