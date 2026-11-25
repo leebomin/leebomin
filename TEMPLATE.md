@@ -1,4 +1,4 @@
-<img align="right" width="460" src="./assets/fish.svg?v=6" alt="ascii fish" />
+<img align="right" width="460" src="./assets/fish.svg?v=7" alt="halftone dot fish" />
 
 
 ### Hi there! <img src="assets/wave.svg" width="28">
