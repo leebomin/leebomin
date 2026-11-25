@@ -9,9 +9,9 @@ A data scientist with a statistics background.
 
 I build ML models and check that they hold up on real data.
 
-Check out my [portfolio](https://leebomin.notion.site/Data-Scientist-1f40743c054580c7b470d43c597c3220?pvs=74) for project details.
+Check out my [portfolio](https://leebomin.github.io/) for project details.
 
-[![portfolio](https://img.shields.io/badge/portfolio-notion-313131?style=flat&labelColor=545454&color=313131)](https://leebomin.notion.site/Data-Scientist-1f40743c054580c7b470d43c597c3220?pvs=74) [![linkedin](https://img.shields.io/badge/linkedin-bomin%20lee-313131?style=flat&labelColor=545454&color=313131)](https://www.linkedin.com/in/leebomin/) [![velog](https://img.shields.io/badge/blog-velog-313131?style=flat&labelColor=545454&color=313131)](https://velog.io/@leebomin)
+[![portfolio](https://img.shields.io/badge/portfolio-313131?style=flat&labelColor=545454&color=313131)](https://leebomin.github.io/) [![linkedin](https://img.shields.io/badge/linkedin-bomin%20lee-313131?style=flat&labelColor=545454&color=313131)](https://www.linkedin.com/in/leebomin/) [![velog](https://img.shields.io/badge/blog-velog-313131?style=flat&labelColor=545454&color=313131)](https://velog.io/@leebomin)
 
 <br clear="right"/>
 
