@@ -15,7 +15,7 @@ Check out my [portfolio](https://leebomin.notion.site/Data-Scientist-1f40743c054
 
 <br clear="right"/>
 
-`commits 99` · `projects 5` · `contributed 1`
+`commits 100` · `projects 5` · `contributed 1`
 
 #### `01` Stack
 
