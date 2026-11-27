@@ -15,7 +15,7 @@ Check out my [portfolio](https://leebomin.github.io/) for project details.
 
 <br clear="right"/>
 
-`commits 122` · `projects 6` · `contributed 1`
+`commits 136` · `projects 7` · `contributed 1`
 
 #### `01` Stack
 
